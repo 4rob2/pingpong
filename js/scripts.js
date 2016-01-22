@@ -1,17 +1,16 @@
 $(document).ready(function() {
-  $("form#ending")=.submit(function(event) {
-    var product = parseInt($("input#ending").val());
-    var end = "Completed! Want to play again?"
-    var count = []
+    var index =["#ending"];
+    var primes=[]
 
-    for (var index = 1; index = product) {
-    if (index< product) {
-      $("#upwards").append("<p>" + index + " " + "</p>");
-    }
-    else {
-      $("#there").append("<p>" + end + "</p>");
-    }
-  }
-  event.preventDefault();
-  });
+  if ((index[0]>15) && (index[0]%15 === 0)) {
+    $("pingpong").show();
+} else if
+     ((index[0]>5) && (index[0]%5 === 0)) {
+     $ ("pong").show();
+} else if ((index[0]>3) && (index[0] === 0)) {
+      $ ("ping").show();
+} else {
+    $(index[0]).show;
+}
+event.preventDefault();
 });
