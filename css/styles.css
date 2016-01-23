@@ -2,6 +2,7 @@
 .container {
   margin: 0;
   height: 100%;
+  padding-bottom: 0px;
   background-color: gray;
   border: 2px black
 }
@@ -9,11 +10,16 @@
 #sidebar {
   position: absolute;
   top:0; bottom:0; left:0;
+  text-align-last: center;
   width:200px;
   background: brown;
+  padding-top: 400px;
+  font-style: oblique;
+  color: white;
 }
 #pingpong {
   display: none;
+  
 }
 
   #ping {
@@ -22,6 +28,9 @@
 
   #pong {
   display: none;
+}
+#completed {
+display: none;
 }
 
   .header {
@@ -38,5 +47,7 @@
 }
 
 #footer {
-  justify-content: center; padding-top: 250px;color: gray;
+
+  height: 100%;
+  padding-top: 600px;color: gray;
 }

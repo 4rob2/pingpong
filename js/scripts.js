@@ -1,16 +1,24 @@
 $(document).ready(function() {
-    var index =["#ending"];
-    var primes=[]
+  $("form#paddle").submit(function(event) {
+  var inputA = parseInt($("input#ending").val());
+  var index = 0;
 
-  if ((index[0]>15) && (index[0]%15 === 0)) {
-    $("pingpong").show();
-} else if
-     ((index[0]>5) && (index[0]%5 === 0)) {
-     $ ("pong").show();
-} else if ((index[0]>3) && (index[0] === 0)) {
-      $ ("ping").show();
-} else {
-    $(index[0]).show;
-}
-event.preventDefault();
-});
+  for(inputA;inputA < index;index++) {
+
+    do {
+      if (index % 15 === 0) {
+      $("#pingpong").alert();
+     }else if
+     (index % 5 === 0) {
+     $ ("#pong").show();
+     }else if (index % 3 === 0) {
+     $ ("#ping").show();
+     }else
+      return document.write(index);
+
+    while (inputA <= index);
+    $("#completed").show();
+
+  event.preventDefault();
+  });
+}):
