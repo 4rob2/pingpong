@@ -1,24 +1,21 @@
 $(document).ready(function() {
   $("form#paddle").submit(function(event) {
   var inputA = parseInt($("input#ending").val());
-  var index = 0;
 
-  for(inputA;inputA < index;index++) {
+  for(var i=1;inputA >= i; i++) {
+    if (i % 15 === 0)
+     document.write("pingpong" + "<br/>");
 
-    do {
-      if (index % 15 === 0) {
-      $("#pingpong").alert();
-     }else if
-     (index % 5 === 0) {
-     $ ("#pong").show();
-     }else if (index % 3 === 0) {
-     $ ("#ping").show();
-     }else
-      return document.write(index);
+   else if
+     (i % 5 === 0)
+      document.write("pong" + "<br/>");
 
-    while (inputA <= index);
-    $("#completed").show();
-
-  event.preventDefault();
-  });
-}):
+   else if (i % 3 === 0)
+     document.write("ping" + "<br/>");
+     else
+       document.write((i) + "<br/>");
+        $("#completed").show();
+      event.preventDefault();
+   }
+  })
+});

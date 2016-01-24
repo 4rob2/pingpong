@@ -12,25 +12,32 @@
   top:0; bottom:0; left:0;
   text-align-last: center;
   width:200px;
+  height:auto;
   background: brown;
-  padding-top: 400px;
+  padding-top: 200px;
   font-style: oblique;
   color: white;
 }
 #pingpong {
   display: none;
-  
+  font-size: 18pt;
+  font-weight: bolder;
+
 }
 
   #ping {
   display: none;
+  font-size: 18pt;
+  font-weight: bolder;
 }
 
   #pong {
   display: none;
+  font-size: 18pt;
+  font-weight: bolder;
 }
-#completed {
-display: none;
+  #completed {
+  display: none;
 }
 
   .header {
@@ -47,7 +54,7 @@ display: none;
 }
 
 #footer {
-
-  height: 100%;
-  padding-top: 600px;color: gray;
+  color: white;
+  height: 10%;
+  padding-top: 600px;color: green;
 }
