@@ -18,27 +18,7 @@
   font-style: oblique;
   color: white;
 }
-#pingpong {
-  display: none;
-  font-size: 18pt;
-  font-weight: bolder;
 
-}
-
-  #ping {
-  display: none;
-  font-size: 18pt;
-  font-weight: bolder;
-}
-
-  #pong {
-  display: none;
-  font-size: 18pt;
-  font-weight: bolder;
-}
-  #completed {
-  display: none;
-}
 
   .header {
   height: 100%; font-size: 144pt; background-color: #ffff00;

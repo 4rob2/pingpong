@@ -14,8 +14,17 @@ $(document).ready(function() {
      document.write("ping" + "<br/>");
      else
        document.write((i) + "<br/>");
-        $("#completed").show();
-      event.preventDefault();
+
+    event.preventDefault();
    }
+   var ask = prompt("Want to play again?");
+      if (ask = "true"){
+        return
+
+    {
+
+      }
+    }
+
   })
 });
