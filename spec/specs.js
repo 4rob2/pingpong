@@ -5,15 +5,18 @@ describe("count", function() {
   });
 });
 describe("count", function() {
+    var testCount = new count(3);
   it("calculates a multiple of 3", function() {
-    expect(testCount.fifteencount).to.equal(true);
+    expect(testCount.threecount).to.equal(true);
   });
 });describe("count", function() {
+    var testCount = new count (5);
   it("calculates a multiple of 5", function() {
-    expect(testCount.fifteencount).to.equal(true);
+    expect(testCount.fivecount).to.equal(true);
   });
 });
 describe("count", function() {
+    var testCount = new count(15);
   it("calculates a multiple of 15", function() {
     expect(testCount.fifteencount).to.equal(true);
   });
