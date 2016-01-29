@@ -5,6 +5,7 @@
   padding-bottom: 0px;
   background-color: gray;
   border: 2px black
+
 }
 
 #sidebar {
@@ -16,8 +17,7 @@
   background: brown;
   padding-top: 200px;
   font-style: oblique;
-  color: white;
-}
+  }
 
 
   .header {
@@ -34,7 +34,7 @@
 }
 
 #footer {
-  color: white;
+  color: #000000;
   height: 10%;
-  padding-top: 600px;color: green;
+  padding-top: 600px;color: #000000;
 }

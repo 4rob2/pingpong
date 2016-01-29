@@ -18,5 +18,6 @@ $(document).ready(function() {
         $("#results").append("<li>"+i+"</li>");
       }
     };
+        $("#paddle").find("input").val('');
   });
 });
